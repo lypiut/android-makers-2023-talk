@@ -1,4 +1,6 @@
+slidenumbers: true
 # [fit] MAESTRO
+### [fit] _Mobile UI Testing, Simplified._
 
 ---
 
