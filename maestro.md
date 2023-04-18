@@ -1,13 +1,34 @@
 slidenumbers: true
-# [fit] MAESTRO
-### [fit] _Mobile UI Testing, Simplified._
+slide-transition: false
+
+## Become a **Maestro** of Mobile Testing in **5** minutes
 
 ---
 
-## Smart copy & paste
+# Hello 👋
 
-To copy a slide from Deckset to another document, just ⌘+C it, then ⌘+V it into your editor (it will paste the _Markdown_) or into any application that handles PDFs (it will paste the slide as _PDF_).
+**Romain Rivollier** - *Staff Engineer*
+**Jordan Dahnoun** - *Engineer Manager*
+
+
+## Helping **students** finding their first **job** on
+![inline 18%](ressources/jobteaser.png)
+
 
 ---
 
-# [fit] ⌘+C ⌘+V = :v:
+# **Shift Left** in Mobile Engineering
+
+- Catch bugs before the **release**
+- Shipping your *mobile app* with **confidence**
+
+
+---
+# **Shift Left** in Mobile Engineering
+
+![inline](ressources/shift_left_before.jpg)
+
+---
+# **Shift Left** in Mobile Engineering
+
+![inline](ressources/shift_left_after.jpg)

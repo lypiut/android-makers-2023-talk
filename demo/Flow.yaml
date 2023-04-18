@@ -1,0 +1,20 @@
+appId: fr.androidmakers.gradle.android.application
+---
+- scrollUntilVisible:
+    element: "Become a Maestro of Mobile Testing in 5 minutes"
+    direction: "DOWN"
+- tapOn: "Become a Maestro of Mobile Testing in 5 minutes"
+- assertVisible:
+    text: "Jordan Dahnoun"
+- assertVisible:
+    text: "Romain Rivollier"
+- tapOn: "Favorite"
+- tapOn: "Back"
+- tapOn:
+    point: "81%,7%"
+- tapOn:
+    text: "Favorite"
+    index: 1
+- tapOn:
+    point: "81%,7%"
+- assertVisible: "Become a Maestro of Mobile Testing in 5 minutes"
