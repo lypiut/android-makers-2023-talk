@@ -32,3 +32,15 @@ slide-transition: false
 # **Shift Left** in Mobile Engineering
 
 ![inline](ressources/shift_left_after.jpg)
+
+___
+
+# [fit] **End to End** testing
+
+___
+
+#Ressources:
+
+- Shift Left in Mobile Engineering: [The Shift Left in Mobile Engineering by mobile.dev](https://blog.mobile.dev/the-shift-left-in-mobile-engineering-63fdbb3e34e2)
+
+- Maestro: [https://maestro.mobile.dev](https://maestro.mobile.dev)
