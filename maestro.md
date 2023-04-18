@@ -125,6 +125,15 @@ const viewDef: IViewDefinition = {
 
 - *Kotlin* open source project
 - Cross-platform (Android & iOS)
+- **Simple** setup
+- No dependency
+
+---
+
+# Show me your flow!
+
+- Flow describe a *test*
+- Write in *yaml*
 - Declarative and **simple** syntax
 
 ---
@@ -153,6 +162,14 @@ appId: fr.androidmakers.gradle.android.application
     point: "81%,7%"
 - assertVisible: "Become a Maestro of Mobile Testing in 5 minutes"
 ```
+
+---
+
+# Maestro Studio
+
+---
+
+![autoplay loop fit](ressources/maestro-studio.mov)
 
 ---
 
