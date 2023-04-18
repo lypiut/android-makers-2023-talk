@@ -124,7 +124,7 @@ const viewDef: IViewDefinition = {
 # Maestro
 
 - *Kotlin* open source project
-- Cross-platform (Android & iOS)
+- Cross-platform (Android, iOS, React Native, Flutter)
 - **Simple** setup
 - No dependency
 
