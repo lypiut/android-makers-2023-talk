@@ -138,6 +138,17 @@ const viewDef: IViewDefinition = {
 
 ---
 
+# Simple commands
+
+```yaml
+- tapOn: "element.id" #tap on UI element
+- assertVisible: "element.id" #check if the element is present
+- inputText: "a text" #Input text with keyboard
+- back #tap on back button
+```
+
+---
+
 [.code-highlight: 2, 6-8]
 
 ```yaml
