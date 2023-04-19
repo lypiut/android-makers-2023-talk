@@ -46,22 +46,6 @@ slide-transition: false
 
 ---
 
-# Benefits of End-to-End testing
-
-- Detect bugs and  regressions early
-- Test features in their entirety, as a user will do
-- Automatic testing, win some time
-
----
-
-# But ...
-
-- Complex scenarios to write
-- Costly
-- Painful reports
-
----
-
 # Experience
 
 ---
@@ -133,7 +117,16 @@ const viewDef: IViewDefinition = {
 # Experience
 
 - Write tests at the same time we develop screen
-- Good pace 
+- Good pace
+- Detect bugs and regressions early
+
+---
+
+# Cons
+
+- Complex to maintain with app evolution
+- Time consuming
+- Adaptation to the stack
 
 ---
 
