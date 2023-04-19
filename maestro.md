@@ -130,9 +130,7 @@ const viewDef: IViewDefinition = {
 
 ---
 
-![fit 70%](ressources/maestro-logo.png)
-
-# Maestro
+# Maestro :musical_keyboard:
 
 ---
 
@@ -223,12 +221,17 @@ Don't have access to all commands
 ---
 # The test
 
+
 1. Find our talk 
 - open it
 - check if we are the speakers
 - put it in favorite
 - filter talks by favorite
 - check if our is present
+
+---
+
+![autoplay fit](ressources/maestro-demo-1080p.mov)
 
 ---
 
@@ -255,10 +258,6 @@ Don't have access to all commands
 
 ---
 
-![autoplay fit](ressources/maestro-demo-1080p.mov)
-
----
-
 ## Integration in your development flow
 
 ---
@@ -269,3 +268,7 @@ Don't have access to all commands
 
 - Maestro: [https://maestro.mobile.dev](https://maestro.mobile.dev)
 - Maestro Github: [https://github.com/mobile-dev-inc/maestro](https://github.com/mobile-dev-inc/maestro)
+
+---
+
+# [fit] Questions? :raising_hand:
