@@ -45,6 +45,7 @@ slide-transition: false
 # [fit] **End to End** testing
 
 ---
+
 # Benefits of End-to-End testing
 
 - Detect bugs and  regressions early
@@ -52,11 +53,13 @@ slide-transition: false
 - Automatic testing, win some time
 
 ---
+
 # But ...
 
 - Complex scenarios to write
 - Costly
 - Painful reports
+
 ---
 
 # Experience
