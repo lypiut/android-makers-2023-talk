@@ -209,6 +209,22 @@ appId: my.super.app.id
 
 ---
 
+[.text: alignment(center)]
+
+[.column]
+
+:+1:
+
+Run you test live
+
+[.column]
+
+:-1:
+
+Don't have access to all commands
+
+---
+
 ## Real *world* example with **Android Makers** app
 
 ---
@@ -247,6 +263,10 @@ appId: my.super.app.id
 ---
 
 ![autoplay fit](ressources/maestro-demo-1080p.mov)
+
+---
+
+## Integration in your development flow
 
 ---
 
