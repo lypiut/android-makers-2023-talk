@@ -262,7 +262,27 @@ Don't have access to all commands
 
 ---
 
-#Ressources:
+## Maestro Cloud
+
+- CI dedicated to run your flows
+- Reporting
+- Run only on simulators
+- Integration to Github PR
+
+---
+
+![fit](ressources/maestro-cloud.png)
+
+---
+
+## Run maestro directly on your CI 
+
+- You setup your test environment
+- very light report when flow fails (Junit report)
+
+---
+
+#Ressources :books:
 
 - Shift Left in Mobile Engineering: [The Shift Left in Mobile Engineering by mobile.dev](https://blog.mobile.dev/the-shift-left-in-mobile-engineering-63fdbb3e34e2)
 
@@ -271,4 +291,4 @@ Don't have access to all commands
 
 ---
 
-# [fit] Questions? :raising_hand:
+# [fit] **Questions?** :raising_hand:
