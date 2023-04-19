@@ -17,6 +17,12 @@ slide-transition: false
 
 
 ---
+# Objectives of this **talk** 
+
+- Better understand *Shift Left* and **End-to-End testing**
+- Introduce **Maestro** and how to integrate it in your processes
+
+---
 
 # **Shift Left** in Mobile Engineering
 
@@ -40,15 +46,36 @@ slide-transition: false
 
 ---
 
+# Objectives of this **talk**
+
+- Better understand *Shift Left* and **End-to-End testing**
+- Introduce **Maestro** and how to integrate it in your processes
+
+---
+
 # Experience
 
 ---
 
 # Back in the day
 
-- Reboot **JobtTeaser** mobile app in 2019
+- Reboot **JobTeaser** mobile app in 2019
 - Write it with End to End testing in mind
 - Build a new test stack
+
+---
+# Benefits of End-to-End testing 
+
+- Detect bugs and  regressions early
+- Test features in their entirety, as a user will do
+- Automatic testing, win some time
+
+---
+# But ...
+
+- Complex scenarios to write
+- Costly
+- Painful reports
 
 ---
 
