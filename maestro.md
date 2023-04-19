@@ -135,6 +135,7 @@ const viewDef: IViewDefinition = {
 - Flow describe a *test*
 - Write in *yaml*
 - Declarative and **simple** syntax
+- Composable
 
 ---
 
@@ -144,16 +145,63 @@ const viewDef: IViewDefinition = {
 - tapOn: "element.id" #tap on UI element
 - assertVisible: "element.id" #check if the element is present
 - inputText: "a text" #Input text with keyboard
-- back #tap on back button
+- back #tap on back button 
 ```
 
 ---
 
-[.code-highlight: 2, 6-8]
+# Simple structure
 
 ```yaml
-appId: fr.androidmakers.gradle.android.application
+appId: my.super.app.id
 ---
+- launchApp:
+    appId: my.super.app.id
+    clearState: true
+- tapOn: my.button.id
+- assertVisible: user.profile.name
+- swipe:
+    direction: DOWN
+```
+
+---
+
+# Lazy to write **yaml**?
+
+---
+
+# Maestro Studio
+
+---
+
+# Maestro Studio
+
+- No-Code UI Automation 
+- Record Maestro commands directly from your app
+- Inspect UI element
+- Export recording directly to flow file
+
+---
+
+![autoplay loop fit](ressources/maestro-studio.mov)
+
+---
+
+## Real *world* example with **Android Makers** app
+
+---
+# The test
+
+1. Find our talk 
+- open it
+- check if we are the speakers
+- put it in favorite
+- filter talks by favorite
+- check if our is present
+
+---
+
+```yaml
 - scrollUntilVisible:
     element: "Become a Maestro of Mobile Testing in 5 minutes"
     direction: "DOWN"
@@ -173,14 +221,6 @@ appId: fr.androidmakers.gradle.android.application
     point: "81%,7%"
 - assertVisible: "Become a Maestro of Mobile Testing in 5 minutes"
 ```
-
----
-
-# Maestro Studio
-
----
-
-![autoplay loop fit](ressources/maestro-studio.mov)
 
 ---
 
