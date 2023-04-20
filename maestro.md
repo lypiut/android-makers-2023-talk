@@ -148,7 +148,7 @@ const viewDef: IViewDefinition = {
 - Flow describe a *test*
 - Write in *yaml*
 - Declarative and **simple** syntax
-- Composable
+- Composable (flows can call each other)
 
 ---
 
@@ -206,13 +206,18 @@ appId: my.super.app.id
 
 :+1:
 
-Run you test live
+
+- **Easy** to record a flow
+- app interaction in *real time*
+- no dependency
 
 [.column]
 
 :-1:
 
-Don't have access to all commands
+
+- Don't have access to *all* test commands
+- Cannot update a current test
 
 ---
 
@@ -272,6 +277,10 @@ Don't have access to all commands
 ---
 
 ![fit](ressources/maestro-cloud.png)
+
+---
+
+![fit](ressources/maestro-github.jpg)
 
 ---
 
