@@ -1,4 +1,4 @@
-slidenumbers: false
+slidenumbers: true
 slide-transition: false
 
 # [fit] Become a **Maestro** of Mobile Testing
