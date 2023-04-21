@@ -46,7 +46,7 @@ slide-transition: false
 
 ---
 
-# Experience
+# Story Time
 
 ---
 
@@ -114,7 +114,7 @@ const viewDef: IViewDefinition = {
 
 ---
 
-# Experience
+# Pros
 
 - Write tests at the same time we develop screen
 - Good pace
