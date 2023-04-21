@@ -61,8 +61,8 @@ slide-transition: false
 # The stack
 
 - **Appium**: Automation backend 
-- **Webdriverio**: Communicate with Appium via the webdriver protocol
-- **Cucumber**: Write tests in (kind of) natural language
+- **Webdriverio**: Communicate with Appium via the webdriver protocol (*Typescript*)
+- **Cucumber**: Write tests in, kind of, natural language (*Gherkin*)
 
 ---
 
