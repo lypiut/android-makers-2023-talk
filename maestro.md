@@ -124,9 +124,9 @@ const viewDef: IViewDefinition = {
 
 # Cons
 
+- Adaptation to the stack
 - Complex to maintain with app evolution
 - Time consuming
-- Adaptation to the stack
 
 ---
 
