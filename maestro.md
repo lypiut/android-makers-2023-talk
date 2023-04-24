@@ -56,11 +56,23 @@ slide-transition: false
 - Write it with End to End testing in mind
 - Build a new test stack
 
+^ 
+- We reboot the mobile app (Android and iOS) in 2019. 
+- The company globaly shifting to end to end testing (mobile and web product) so the app was build along side end to end tests
+- We built a new testing stack to write test once and run them on Android and iOS
+
 ---
 
 # The stack
 
 ![inline fill](ressources/existing-stack.png)
+
+^ 
+We finished with this stack:
+- Cucumber that describe tests in a kind of natural language to make test easy to write and easy to read
+- WebdriverIO with Appium to write test implementations and communicate with devices
+- Tests are executed on a device farm hosted by BrowserStack and test report were built with allure.
+- You don't know all these technologies don't worry
 
 ---
 
@@ -74,11 +86,18 @@ Feature: [Landing] Landing
 
 Scenario: SignIn
     Given I am on "landing" view
-    When  I click on "sign in button"
+    When  I click on "already have an account"
     Then  I am on "sign in email" view
 ```
 
----
+^
+This at the end how a test looked like
+as you can see this test for the landing view
+tests are shared between Android and iOS app
+Really easy to read the scenario and understand what is it doing$
+BUT...
+
+--- 
 
 ```typescript
 interface ILandingSelectors extends SelectorCollection {
@@ -110,6 +129,12 @@ const viewDef: IViewDefinition = {
 };
 ```
 
+^
+The page implementation need a lot of typescript code like:
+- defining elements for both platform
+- implement navigation logic
+- and I don't speak about the initial implementation of some concept like View that is not builtin
+
 ---
 
 # Pros
@@ -118,6 +143,11 @@ const viewDef: IViewDefinition = {
 - Good pace (at first)
 - Detect bugs and regressions early
 
+^
+So developing tests at the same time we built the app was cool and we learn good practice 
+The pace was good until the app flows grow and become more and more complex
+Save us from a lot of hot fix
+
 ---
 
 # Cons
@@ -125,6 +155,13 @@ const viewDef: IViewDefinition = {
 - Adaptation to the stack
 - Complex to maintain with app evolution
 - Time consuming
+- Lost of motivation from engineers
+
+^
+Stack is complex and need some adaptation for mobile engineers (Typescript, Gerkin)
+Luckily we've got helps from our QA engineers
+Updating some tests has be harder du to app flow implementation complexity
+This lead to more and more time consumed to maintains tests and even write them
 
 ---
 
