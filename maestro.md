@@ -115,7 +115,7 @@ const viewDef: IViewDefinition = {
 # Pros
 
 - Write tests at the same time we develop screen
-- Good pace
+- Good pace (at first)
 - Detect bugs and regressions early
 
 ---
@@ -137,8 +137,7 @@ const viewDef: IViewDefinition = {
 - Created in 2022 by mobile.dev
 - *Kotlin* open source project
 - Cross-platform (Android, iOS, ...)
-- **Simple** setup
-- No dependency
+- **Simple** to use
 
 ---
 
@@ -165,20 +164,14 @@ const viewDef: IViewDefinition = {
 # Simple structure
 
 ```yaml
-appId: my.super.app.id
----
 - launchApp:
     appId: my.super.app.id
     clearState: true
 - tapOn: my.button.id
-- assertVisible: user.profile.name
 - swipe:
     direction: DOWN
+- assertVisible: user.profile.name
 ```
-
----
-
-# Lazy to write **yaml**?
 
 ---
 
@@ -290,6 +283,38 @@ appId: my.super.app.id
 
 ---
 
+# Are we **happy**?
+
+---
+
+# Conclusion
+
+- Reporting less powerfull
+- young product so some bug can appear
+- limited to simulator for the moment
+- The best experience is tied to theirs cloud platform
+
+---
+
+# Conclusion
+
+- New tests are faster to write
+- Costs can be lower
+- maestro product moving fast
+- Reduce maintenance to zero
+
+---
+
+# Previous stack
+![inline fill](ressources/existing-stack.png)
+
+---
+
+# New stack
+![inline fill](ressources/maestro-stack.png)
+
+---
+
 #Ressources :books:
 
 - Shift Left in Mobile Engineering: [The Shift Left in Mobile Engineering by mobile.dev](https://blog.mobile.dev/the-shift-left-in-mobile-engineering-63fdbb3e34e2)
@@ -300,15 +325,3 @@ appId: my.super.app.id
 ---
 
 # [fit] **Questions?** :raising_hand:
-
----
-
-flowchart LR
-    A[Cucumber] --- B[WebdriverIO] 
-    subgraph one[Automation Tools]
-    B --- C[Appium]
-    end 
-    subgraph two[Run and reports]
-    C --- D[BrowserStack]
-    D --- E[Allure]
-    end
