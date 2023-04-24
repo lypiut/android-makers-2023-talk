@@ -60,9 +60,7 @@ slide-transition: false
 
 # The stack
 
-- **Appium**: Automation backend 
-- **Webdriverio**: Communicate with Appium via the webdriver protocol (*Typescript*)
-- **Cucumber**: Write tests in, kind of, natural language (*Gherkin*)
+![inline fill](ressources/existing-stack.png)
 
 ---
 
@@ -136,8 +134,9 @@ const viewDef: IViewDefinition = {
 
 # Maestro
 
+- Created in 2022 by mobile.dev
 - *Kotlin* open source project
-- Cross-platform (Android, iOS, React Native, Flutter)
+- Cross-platform (Android, iOS, ...)
 - **Simple** setup
 - No dependency
 
@@ -301,3 +300,15 @@ appId: my.super.app.id
 ---
 
 # [fit] **Questions?** :raising_hand:
+
+---
+
+flowchart LR
+    A[Cucumber] --- B[WebdriverIO] 
+    subgraph one[Automation Tools]
+    B --- C[Appium]
+    end 
+    subgraph two[Run and reports]
+    C --- D[BrowserStack]
+    D --- E[Allure]
+    end
