@@ -252,6 +252,9 @@ This lead to more and more time consumed to maintains tests and even write them
 
 ## Real *world* example with **Android Makers** app
 
+^
+Time to play with a real app and we took the android makers appp from the playstore
+
 ---
 # The test
 
@@ -263,9 +266,20 @@ This lead to more and more time consumed to maintains tests and even write them
 - filter talks by favorite
 - check if our is present
 
+^
+we were a little anxious about the fact our talk will really happen 
+so we write a little test to check if the talk will occurs and we are the speakers :D
+
+
 ---
 
 ![autoplay fit](ressources/maestro-demo-1080p.mov)
+
+^
+Before check the test code let's look at the test running,
+the terminal is not very interesting it just list the steps of the test and put a green checkmark when it's done.
+Maesto take each command and execute them, it's capable of handling some lag du to API call for example 
+
 
 ---
 
@@ -289,6 +303,11 @@ This lead to more and more time consumed to maintains tests and even write them
     point: "81%,7%"
 - assertVisible: "Become a Maestro of Mobile Testing in 5 minutes"
 ```
+
+^
+10 steps to write this test, in 2 minutes with maesto studio
+In term of practice this test is not the best because the actual version of the app lack of accessibility id 
+and we need to query ui element via the string content but for this demo, it's okay
 
 ---
 
