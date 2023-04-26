@@ -20,6 +20,7 @@ slide-transition: false
 # Objectives of this **talk** 
 
 - Better understand *Shift Left* and **End-to-End testing**
+- Dig into our own experience at **JobTeaser**
 - Introduce **Maestro** and how to integrate it in your processes
 
 ---
